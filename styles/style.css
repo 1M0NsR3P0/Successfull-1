@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-size-banner {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gradient {
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.custom-size-p {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#text {
+    width: 500px;
+    height: 50px;
+}
+
+#what-u-looking {
+    width: 500px;
+    height: 55px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    padding-left: 15px;
+}
+
+.service-card {
+    height: 499px;
+    width: 401px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.btn-info-custom {
+    background-color: #B68C5A;
+    border: 0;
+
+}
+
+.btn-info-custom:hover {
+    background-color: #a07642;
+}
+
+.custom-footer {
+    list-style: none;
+    gap: 100px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+
+}
+
+.carousel-custom img {
+    height: 450px;
+}
+
+.custom-size {
+    height: 82px !important;
+    width: 82px;
+
+}
+
+.custom-input {
+    outline: none;
+    border: none;
+}
+
+.submit-btn {
+    margin-left: -15px;
+}
+
+
+
+@media screen and (max-width:991px) {
+    .practice-area-heading {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Practice-area-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .what-u-looking {
+        width: 200px;
+    }
+
+    .custom-size-banner {
+        font-size: 18px;
+        margin-top: 0;
+        font-weight: 700;
+
+        margin-bottom: 0;
+    }
+
+    .img-over {
+        padding-top: 0 !important;
+        padding-bottom: 0;
+        margin-top: 0 !important;
+        padding: 0 50px;
+    }
+
+    .custom-size-p {
+        font-size: 11px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .card-text2 {
+        font-size: 5px;
+        padding-top: 0;
+        margin: 0 !important;
+    }
+
+    #what-u-looking {
+        width: auto !important;
+        height: 20px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .btn-info-custom {
+
+        margin: 0 !important;
+    }
+
+    .responsive-btn {
+        font-size: 10px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .practice-area-heading {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+    }
+
+    .responsive-footer {
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+
+
+}
